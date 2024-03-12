@@ -19,7 +19,7 @@ function onTop() {
 }
 
 function back(){
-  location.href="file:///C:/Users/vikjo/Desktop/Portfolio/index.html#Projects"
+  location.href="../index.html#Projects"
 }
 
 function transition1(){
