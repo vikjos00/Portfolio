@@ -17,6 +17,7 @@ h1{
 
 p{
   font-size: 1.1rem;
+  color: white;
 }
 
 section{
@@ -88,13 +89,63 @@ nav {
 
 /* SLUT MENY */
 
+.about{
+  padding-top: 5vh !important;
+  background-color: #424242;
+}
 
+.about h3{
+  color: #34b24d;
+}
 
+.about-img{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.about-img img{
+  width: 50%;
+  height: 70%;
+  object-fit: cover;
+  border-radius: 10%;
+}
 
+.loading_text{
+  padding-bottom: 4vh;
+  height: 80vh;
+}
 
+.loading_text h2, .contact-info h3{
+  color:#34b24d;
+}
 
+#text_1, #text_2, #text_3, #text_4{
+  margin-left: 4vh;
+  opacity: 0;
+  transition: 0.5s ease opacity;
+}
 
+#text_4 p::before{
+  content: "•";
+  padding-right: 0.5vw;
+}
+
+.button{
+  width: 6vw;
+  height: 5vh;
+  border: none;
+  border-radius: 25px;
+  margin-right: 2vw;
+  background-color: #598360;
+  color: white;
+  margin-top: 2vh;
+}
+
+.button:hover{
+  background-color: #314d36;
+  transition: 0.4s;
+}
 
 
 /* Footer */
@@ -160,21 +211,6 @@ nav {
 }
 
 /* Footer slut */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Mobil */
 
