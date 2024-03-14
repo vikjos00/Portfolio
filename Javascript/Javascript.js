@@ -19,7 +19,7 @@ function onTop() {
 }
 
 function back(){
-  location.href="https://viktorjosefsson.com/index.html#Projects"
+  location.href="https://viktorjosefsson.com/index.html"
 }
 
 function transition1(){
