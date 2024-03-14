@@ -15,7 +15,7 @@
 	<title>About Me</title>
 </head>
 
-<body class="body_transition" onload="test()">
+<body class="body_transition" onload="test(); startTyping()">
 	<header>
 		<nav class="navbar navbar-expand-sm">
   			<div class="container-fluid">
@@ -29,7 +29,40 @@
 	</header>
 
 	<main>
-		
+		<div class="container-fluid">
+			<div class="row about">
+				<div class="col-sm-6 about-img">
+					<img src="Bilder/Header1.jpg">
+					<h3> Contact me </h3>
+					<p> Mail: vikjos00@gmail.com </p>
+					<p> Tel: 072-975 97 40 </p>
+					
+					<a href="CV.pdf" target="_blank">
+						<button class="button">Resume</button>
+					</a>
+				</div>
+
+				<div class="col-sm-6 loading_text">
+					<p id="text_load_1"></p>
+					<h2 id="text_1">About me </h2>
+					<p id="text_2">
+						Hello! My name is Viktor Josefsson. In the summer of 2023, I graduated from Halmstad University with a bachelor's degree in Informatics. The education I completed is called Digital Design and Innovation, and have a big focus on UX and UI, with elements of sustainability and accessability. I am now looking for an oppertunity to apply my skills and knowledge I have gained during my studies.
+					</p>
+					<p id="text_load_2"></p>
+					<p id="text_load_3"></p>
+					<h2 id="text_3"> My skills </h2>
+					<div id="text_4">
+						<p> UX Design </p>
+						<p> HTML & CSS </p>
+						<p> Wordpress </p>
+						<p> Photoshop </p>
+						<p> Figma & Adobe XD </p>
+						<p> Office-package </p>
+					</div>
+					<p id="text_load_4"></p>
+				</div>
+			</div>
+		</div>
 	</main>
 
 	<footer>
